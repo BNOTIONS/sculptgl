@@ -8,11 +8,15 @@
   <link rel='stylesheet' href='css/style.css' type='text/css' />
   <script src='lib/jquery-2.0.3.min.js'></script>
   <script src='lib/jquery.mousewheel.js'></script>
+  <script src='lib/underscore.js'></script>
+  <script src='lib/EventEmitter.js'></script>
+  <script src='lib/leap.js'></script>
+  <script src='lib/levitate.js'></script>
   <script>
   'use strict';
   $(document).ready(function ()
   {
-    var sculptgl = new SculptGL();
+    window.sculptgl = new SculptGL();
     sculptgl.start();
   });
   </script>
@@ -75,5 +79,6 @@ Stéphane GINIER
 
   <!-- main -->
   <script src='sculptgl.js'></script>
+  <script src='leapsculpt.js'></script>
 </body>
 </html>
